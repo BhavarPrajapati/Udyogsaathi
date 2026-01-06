@@ -17,7 +17,7 @@ function App() {
   const [showUserModal, setShowUserModal] = useState(null);
   const [myActivity, setMyActivity] = useState({ posts: [], instant: [] });
   const [loading, setLoading] = useState(false);
-  const API_URL = "http://127.0.0.1:5000/api";
+  const API_URL = "https://udyog-saathi-backend.onrender.com/api";
   const isFetching = useRef(false);
 
   
