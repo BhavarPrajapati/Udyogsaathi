@@ -163,7 +163,7 @@ function App() {
 
 const uploadToCloudinary = async (base64Image) => {
     try {
-        const res = await fetch(`http://localhost:5000/api/upload-image`, { 
+        const res = await fetch(`https://udyog-saathi-backend.onrender.com/api/upload-image`, { 
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ data: base64Image })
@@ -842,7 +842,7 @@ function AuthScreen({ onLogin }) {
   const [previewImg, setPreviewImg] = useState(""); 
   const [loading, setLoading] = useState(false); 
 
-  const BASE_URL = "http://localhost:5000/api"; 
+  const BASE_URL = "https://udyog-saathi-backend.onrender.com/api"; 
 
   const handlePhoneInput = (e) => {
     e.target.value = e.target.value.replace(/[^0-9]/g, '');
