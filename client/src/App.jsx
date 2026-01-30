@@ -795,8 +795,8 @@ function SocialForm({ user, setView, API_URL, fetchData }) {
                         <h3 className="text-xl font-black uppercase text-slate-800 mb-4">Profile Published Successfully!</h3>
                         
                         <div className="text-[12px] text-slate-500 font-bold leading-relaxed space-y-3 uppercase tracking-tight">
-                            <p>Your worker profile is now live.</p>
-                            <p className="text-blue-600">Businesses in your city can now contact you directly.</p>
+                            <p>Your post & profile is now live.</p>
+                            <p className="text-blue-600">This post will not be visible in your feed, but when someone applies to your post, you will know through notification.</p>
                             <p className="border-t pt-3 mt-3">Manage or <span className="text-rose-500">Delete</span> this post from your Profile section.</p>
                         </div>
 
